@@ -1,0 +1,49 @@
+{
+    "users": [
+        {
+            "email": "qwe@wqe.qwe",
+            "username": "QWeqwe",
+            "pwd": "Qwe123"
+        },
+        {
+            "email": "email@email.cin",
+            "username": "Amma",
+            "pwd": "Gamla1"
+        },
+        {
+            "email": "Email@ww.is",
+            "username": "USer",
+            "pwd": "Password1"
+        },
+        {
+            "email": "",
+            "username": "",
+            "pwd": ""
+        },
+        {
+            "email": "ellefu@gmail.com",
+            "username": "User",
+            "pwd": "Pass1"
+        },
+        {
+            "email": "Gumsi@gumsi.is",
+            "username": "Gumsi",
+            "pwd": "Gumsi1"
+        },
+        {
+            "email": "ellefu07@gmail.com",
+            "username": "Svakalegur",
+            "pwd": "Pass123"
+        },
+        {
+            "email": "blabal@gmail.com",
+            "username": "blahvlA",
+            "pwd": "Blabla123"
+        },
+        {
+            "email": "adman1005@live.is",
+            "username": "adamSyni",
+            "pwd": "Adam778"
+        }
+    ]
+}

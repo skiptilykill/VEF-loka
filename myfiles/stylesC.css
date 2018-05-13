@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(to right, #283048, #859398);
+    transform: scale(1);
+
+}
+.background{
+    background-image: url("/static/konnunb.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-attachment: scroll;
+    background-size: cover;
+    border-radius: 225px;
+}
+form{
+    text-align: center;
+    margin-bottom: -47px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 225px;
+    box-shadow:inset 8px 8px 10px 0px rgba(0,0,0,0.1);
+    color: lightblue;
+}
+
+input, select {
+    text-align: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 30%;
+    background-color: #dddddd;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+input[type=submit]:hover {
+    width: 70%;
+    background-color: rgb(150,150,150);
+    color: black;
+    padding: 18px 250px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+a:link{
+	color: white;
+}
+a:visited{
+	color: white;
+}
+
+
+
+
+.label{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  line-height: 35px;
+  text-align: center;
+  background: rgb(130,130,150);
+  font-size: 2.2em;
+  font-weight: bold;
+  width: 100px;
+  height: 35px;
+  color: white;
+  border-radius: 4px;
+  z-index: 1;
+
+}
+.input{
+    display: none;
+}
+input:checked ~ .Menu{
+  position: absolute;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+.Menu{
+	position: absolute;
+	top: 36px;
+	left: -420px;
+	font-family: 'Lobster', cursive;
+	border: 1px solid black;
+	border-radius: 15px;
+	text-align: left;
+	background-color: rgba(150,150,150,0.5);
+	transition: all 0.5s ease;
+	display: flex;
+	flex-flow: column;
+	width: 200px;
+	height: 80%;
+	position: fixed;
+
+}
+.menu{
+	display: flex;
+	flex-flow: row;
+	text-align: center;
+}
+.menu{
+	padding: 0px;
+	font-size: 1.8em;
+	display: flex;
+	flex-flow: column;
+}
+.menu li{
+	padding: 0px;
+}
+li{
+	display: block;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border: 1px solid black;
+	background-color: rgb(130,130,150);
+	text-decoration: none;
+	transition: all 0.1s linear;
+}
+li:hover{
+	background-color: lightblue;
+}
+
+a:link{
+	color: orange;
+	text-decoration: none;
+}
+a:visited{
+	color: orange;
+}
+
+
