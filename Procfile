@@ -1,1 +1,1 @@
-web: python skilaverk_6.py
+web: python app.py
